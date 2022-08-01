@@ -1,0 +1,239 @@
+.kindsNav {
+  display: flex;
+  width: 100%;
+  li {
+    width: 33.33%;
+    border: 1px solid #DCDCDC;
+  }
+  .active {
+    border-bottom: 8px solid $Red;
+  }
+  a {
+    color: #000;
+    text-align: center;
+    padding: 16px 0 8px 0;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+}
+.productHeaderImg {
+  width: 100%;
+  display: flex;
+  .productHeaderImg1, .productHeaderImg2 {
+    width: 50%;
+    height: 36.27vw;
+    background-position: center;
+    background-size: cover;
+  }
+  .productHeaderImg1 {
+    background-image: url("../images/week3-4/product-header-sm-1.png");
+  }
+  .productHeaderImg2 {
+    background-image: url("../images/week3-4/product-header-sm-2.png");
+  }
+}
+.opticalContent {
+  margin-top: 40px;
+  h1, h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    margin-top: 24px;
+    width: 348px;
+  }
+  .product6, .product7, .product8, .product9, .product10, .product11, .product12 {
+    display: none;
+  } 
+  .productImg {
+    height: 168px;
+    width: 348px;
+    background-size: cover;
+    background-position: center;
+  }
+  .productImg1 {
+    background-image: url(../images/week3-4/product-1.png);
+  }
+  .productImg2 {
+    background-image: url(../images/week3-4/product-2.png);
+  }
+  .productImg3 {
+    background-image: url(../images/week3-4/product-3.png);
+  }
+  .productImg4 {
+    background-image: url(../images/week3-4/product-4.png);
+  }
+  .productImg5 {
+    background-image: url(../images/week3-4/product-5.png);
+  }
+  .productImg6 {
+    background-image: url(../images/week3-4/product-6.png);
+  }
+  .productImg7 {
+    background-image: url(../images/week3-4/product-7.png);
+  }
+  .productImg8 {
+    background-image: url(../images/week3-4/product-8.png);
+  }
+  .productImg9 {
+    background-image: url(../images/week3-4/product-9.png);
+  }
+  .productImg10 {
+    background-image: url(../images/week3-4/product-10.png);
+  }
+  .productImg11 {
+    background-image: url(../images/week3-4/product-11.png);
+  }
+  .productImg12 {
+    background-image: url(../images/week3-4/product-12.png);
+  }
+  .nameAndPrice {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    p {
+      color: $Red;
+      font-weight: 500;
+    }
+  }
+  .productColor {
+    display: flex;
+  }
+  .c1, .c2 {
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+  }
+  .c1 {
+    margin-right: 8px;
+    background: #5F3E2D;
+  }
+  .c2 {
+    background: #B75929;
+  }
+}
+.page {
+  display: flex;
+  text-align: center;
+  ul {
+    margin: 64px auto;
+    width: 100%;
+    display: flex;
+  }
+  .changePage {
+    width: 21.43%;
+  }
+  .num {
+    width: 11.43%;
+  }
+  a {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 12px 0;
+    border: 1px solid #555555;
+  }
+  .active {
+    background: #000;
+    color: white;
+  }
+  .nextPage {
+    background: #F2F2F2;
+  }
+}
+@media screen and (min-width: 768px) {
+  .kindsNav {
+    a {
+      font-size: 24px;
+    }
+  }
+  .productHeaderImg {
+    .productHeaderImg1, .productHeaderImg2 {
+      height: 38.54vw;
+    }
+  }
+  .opticalContent {
+    margin-top: 80px;
+    h1 {
+      font-size: 42px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    ul {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    li {
+      margin-top: 40px;
+      width: 336px;
+    }
+    .product1, .product2 {
+      margin-top: 32px;
+    }
+    .product6, .product7, .product8, .product9, .product10 {
+      display: initial;
+    }
+    .productImg {
+      width: 336px;
+    }
+  }
+  .page {
+    ul {
+      margin: 80px auto;
+      width: 53.45%;
+    }
+  }
+}
+@media screen and (min-width: 1296px) {
+  .kindsNav {
+    width: 1296px;
+    margin: 0 auto;
+    a {
+      font-size: 32px;
+      padding: 24px 0 16px 0;
+    }
+  }
+  .productHeaderImg {
+    .productHeaderImg1, .productHeaderImg2 {
+      height: 15.42vw;
+    }
+    .productHeaderImg1 {
+      background-image: url("../images/week3-4/product-header-1.png");
+    }
+    .productHeaderImg2 {
+      background-image: url("../images/week3-4/product-header-2.png");
+    }
+  }
+  .opticalContent {
+    li {
+      margin-top: 80px;
+      width: 306px;
+    }
+    .product3, .product4 {
+      margin-top: 32px;
+    }
+    .product11, .product12 {
+      display: initial;
+    }
+    .productImg {
+      width: 306px;
+    }
+  }
+  .page {
+    ul {
+      width: 28.7%;
+    }
+  }
+}

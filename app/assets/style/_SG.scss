@@ -1,0 +1,224 @@
+.kindsNav {
+  display: flex;
+  width: 100%;
+  li {
+    width: 33.33%;
+    border: 1px solid #dcdcdc;
+  }
+  .active {
+    border-bottom: 8px solid $Red;
+  }
+  a {
+    color: #000;
+    text-align: center;
+    padding: 16px 0 8px 0;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+}
+.SGproductHeaderImg {
+  width: 100%;
+  display: flex;
+  .productHeaderImg1,
+  .productHeaderImg2 {
+    width: 50%;
+    height: 36.27vw;
+    background-position: center;
+    background-size: cover;
+  }
+  .productHeaderImg1 {
+    background-image: url("../images/week3-4/product-header-sm-3.png");
+  }
+  .productHeaderImg2 {
+    background-image: url("../images/week3-4/product-header-sm-4.png");
+  }
+}
+.SGcontent {
+  margin-top: 40px;
+  h1,
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    margin-top: 24px;
+    width: 348px;
+  }
+  .product6 {
+    display: none;
+  }
+  .productImg {
+    height: 224px;
+    width: 348px;
+    background-size: cover;
+    background-position: center;
+  }
+  .productImg1 {
+    background-image: url(../images/week3-4/product-7.png);
+  }
+  .productImg2 {
+    background-image: url(../images/week3-4/product-8.png);
+  }
+  .productImg3 {
+    background-image: url(../images/week3-4/product-9.png);
+  }
+  .productImg4 {
+    background-image: url(../images/week3-4/product-10.png);
+  }
+  .productImg5 {
+    background-image: url(../images/week3-4/product-11.png);
+  }
+  .productImg6 {
+    background-image: url(../images/week3-4/product-12.png);
+  }
+  .nameAndPrice {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    p {
+      color: $Red;
+      font-weight: 500;
+    }
+  }
+  .productColor {
+    display: flex;
+  }
+  .c1,
+  .c2 {
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+  }
+  .c1 {
+    margin-right: 8px;
+    background: #5f3e2d;
+  }
+  .c2 {
+    background: #b75929;
+  }
+}
+.page {
+  display: flex;
+  text-align: center;
+  ul {
+    margin: 64px auto;
+    width: 100%;
+    display: flex;
+  }
+  .changePage {
+    width: 21.43%;
+  }
+  .num {
+    width: 11.43%;
+  }
+  a {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    padding: 12px 0;
+    border: 1px solid #555555;
+  }
+  .active {
+    background: #000;
+    color: white;
+  }
+  .nextPage {
+    background: #f2f2f2;
+  }
+}
+@media screen and (min-width: 768px) {
+  .kindsNav {
+    a {
+      font-size: 24px;
+    }
+  }
+  .SGproductHeaderImg {
+    .productHeaderImg1,
+    .productHeaderImg2 {
+      height: 38.54vw;
+    }
+  }
+  .SGcontent {
+    margin-top: 80px;
+    h1 {
+      font-size: 42px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    ul {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    li {
+      margin-top: 40px;
+      width: 336px;
+    }
+    .product1,
+    .product2 {
+      margin-top: 32px;
+    }
+    .product6 {
+      display: initial;
+    }
+    .productImg {
+      width: 336px;
+    }
+  }
+  .page {
+    ul {
+      margin: 80px auto;
+      width: 53.45%;
+    }
+  }
+}
+@media screen and (min-width: 1296px) {
+  .kindsNav {
+    width: 1296px;
+    margin: 0 auto;
+    a {
+      font-size: 32px;
+      padding: 24px 0 16px 0;
+    }
+  }
+  .SGproductHeaderImg {
+    .productHeaderImg1,
+    .productHeaderImg2 {
+      height: 15.42vw;
+    }
+    .productHeaderImg1 {
+      background-image: url("../images/week3-4/product-header-3.png");
+    }
+    .productHeaderImg2 {
+      background-image: url("../images/week3-4/product-header-4.png");
+    }
+  }
+  .SGcontent {
+    li {
+      margin-top: 80px;
+      width: 416px;
+    }
+    .product3 {
+      margin-top: 32px;
+    }
+    .productImg {
+      width: 416px;
+    }
+  }
+  .page {
+    ul {
+      width: 28.7%;
+    }
+  }
+}
