@@ -1,9 +1,33 @@
----
-title: OPTICAL
-layout: ./app/layout.ejs
-engine: ejs
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OPTICAL</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
 
+  <body>
+    <header class="header">
+      <nav class="container">
+        <a href="./index.html" class="logo">
+          <img src="./assets/images/week3-4/logo-white.png" alt="logo" />
+        </a>
+        <ul>
+          <li><a href="./optical.html">系列鏡框</a></li>
+          <li><a href="./shop.html">門市據點</a></li>
+          <li><a href="./blog.html">部落格</a></li>
+          <li><a href="./faq.html">常見問題</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
 <main>
   <ul class="kindsNav">
     <li class="active"><a href="./optical.html">OPTICAL</a></li>
@@ -216,3 +240,66 @@ engine: ejs
     </ul>
   </div>
 </main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="links">
+          <ul class="navLs">
+            <li><a href="./index.html">首頁</a></li>
+            <li><a href="./optical.html">系列鏡框</a></li>
+            <li><a href="./shop.html">門市據點</a></li>
+            <li><a href="./blog.html">部落格</a></li>
+            <li><a href="./faq.html">常見問題</a></li>
+          </ul>
+          <ul class="society">
+            <li>
+              <a href="#"
+                ><img src="./assets/images/week3-4/ic-social-fb.png" alt="FB"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/images/week3-4/ic_social_ig.png" alt="INS"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/images/week3-4/ic_social_line.png"
+                  alt="LINE"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact">
+          <ul>
+            <li>
+              <a class="tel" href="tel:+">
+                <span class="material-icons"> call </span> 
+                0800-000-000
+              </a>
+            </li>
+            <li>
+              <a class="email" href="mailto:">
+                <span class="material-icons">
+                  mail_outline
+                </span>
+                glasses@business.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="rights">
+          <p>Copyright © 2020 Glasses.All rights reserved.</p>
+          <ul>
+            <li><a href="#">隱私權政策</a></li>
+            <li><a href="#">服務條款</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
