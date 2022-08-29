@@ -151,7 +151,7 @@
     background: #F2F2F2;
   }
 }
-@media screen and (min-width: 768px) {
+@include pad {
   .kindsNav {
     a {
       font-size: 24px;
@@ -196,9 +196,8 @@
     }
   }
 }
-@media screen and (min-width: 1296px) {
+@include pc {
   .kindsNav {
-    width: 1296px;
     margin: 0 auto;
     a {
       font-size: 32px;
@@ -218,8 +217,10 @@
   }
   .opticalContent {
     li {
-      margin-top: 80px;
-      width: 306px;
+      margin: 80px -12px 0 -12px;
+      // margin-top: 80px;
+      width: 25%;
+      padding: 0 12px;
     }
     .product3, .product4 {
       margin-top: 32px;
@@ -228,7 +229,11 @@
       display: initial;
     }
     .productImg {
-      width: 306px;
+      width: 100%;
+      height: 116px;
+    }
+    .nameAndPrice {
+      font-size: 20px;
     }
   }
   .page {

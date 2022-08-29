@@ -38,7 +38,7 @@
     color: #000;
     font-size: 24px;
     display: block;
-    padding: 8px 0;
+    padding: 4px 0;
     border: 1px solid #00000020;
   }
   h2 {
@@ -61,7 +61,7 @@
   }
   .shopInfo {
     border: 1px solid #00000020;
-    padding-left: 24px;;
+    padding: 0 24px;
     li {
       margin-top: 8px;
     }
@@ -86,7 +86,7 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 768px) {
+@include pad {
   .shopCheckLs {
     margin-top: 80px;
     h1 {
@@ -119,20 +119,29 @@
     }
   }
 }
-@media screen and (min-width: 1296px) {
+@include pc {
   .shopCheckLs {
     margin-top: 96px;
   }
   .citySet {
+    margin: 0 -12px 96px -12px;
     justify-content: start;
     .shopImg {
-      width: 416px;
-    }
-    .shop2, .shop5 {
-      margin: 48px 24px 0 24px;
+      width: 100%;
     }
     li {
-      width: 416px;
+      padding: 0 12px;
+      margin-top: 48px;
+      width: 33.3333%;
+    }
+  }
+  .shopInfo {
+    li {
+      padding: 0;
+      width: 100%;
+      p {
+        font-size: 16px;
+      }
     }
   }
 }

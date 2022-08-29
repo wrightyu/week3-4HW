@@ -1,0 +1,23 @@
+$pad: 768px;
+$pc: 992px;
+@mixin pad {
+  @media screen and (min-width: $pad) {
+    @content;
+  }
+}
+@mixin pc {
+  @media screen and (min-width: $pc) {
+    @content;
+  }
+}
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 12px;
+  @include pad {
+    max-width: 720px;
+  }
+  @include pc {
+    max-width: 960px;
+  }
+}

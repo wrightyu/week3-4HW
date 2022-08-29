@@ -1,5 +1,25 @@
 .blogWrap {
-  margin-top: 40px;
+  nav {
+    margin-bottom: 40px;
+    background: $darkRed;
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    li {
+      margin-top: 0;
+    }
+    a {
+      color: white;
+      display: block;
+      padding: 12px 0;
+      font-weight: 700;
+    }
+    .search {
+      display: none;
+    }
+  }
   h1 {
 		font-size: 24px;
 		font-weight: 700;
@@ -78,9 +98,28 @@
     background: #F2F2F2;
   }
 }
-@media screen and (min-width: 768px) {
+@include pad {
   .blogWrap {
-    margin-top: 80px;
+    nav {
+      margin-bottom: 80px;
+      .lsAndSearch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      a {
+        font-size: 20px;
+      }
+      .material-icons {
+        font-size: 40px;
+      }
+      ul {
+        width: 69.54%;
+      }
+      .search {
+        display: initial;
+      }
+    }
     h1 {
       font-size: 48px;
       margin-bottom: 40px;
@@ -110,12 +149,17 @@
     }
   }
 }
-@media screen and (min-width: 1296Px) {
+@include pc {
   .blogWrap {
-    margin-top: 96px;
+    nav {
+      margin-bottom: 96px;
+      ul {
+        width: 45%;
+      }
+    }
     .blogImg {
-      width: 636px;
-      height: 400px;
+      width: 48.5%;
+      height: 285px;
     }
     h2 {
       font-size: 32px;
@@ -127,7 +171,7 @@
       margin-top: 32px;
     }
     article {
-      width: 636px;
+      width: 48.5%;
     }
     .content {
       width: 100%;
@@ -147,7 +191,7 @@
       justify-content: space-between;
       p {
         color: #555555;
-        font-size: 20px;
+        // font-size: 20px;
       }
       h4 {
         color: $darkRed;
@@ -159,7 +203,7 @@
   }
   .page {
     ul {
-      width: 28.7%;
+      width: 35%;
     }
   }
 }

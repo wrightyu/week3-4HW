@@ -1,46 +1,46 @@
 .faqWrap {
-	margin-top: 40px;
-	margin-bottom: 64px;
-	h1 {
-		font-size: 24px;
-		font-weight: 700;
-		border-left: 8px solid $Red;
-		padding-left: 16px;
-		margin-bottom: 24px;
-	}
-	h2 {
-		font-size: 24px;
-		font-weight: 700;
-	}
-	li {
-		margin: 24px 0;
-		p {
-			margin-top: 8px;
-		}
-	}
-	h3 {
-		font-size: 20px;
-		font-weight: 700;
-	}
+  margin-top: 40px;
+  margin-bottom: 64px;
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    border-left: 8px solid $Red;
+    padding-left: 16px;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  li {
+    margin: 24px 0;
+    p {
+      margin-top: 8px;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
-@media screen and (min-width: 768px) {
-	.faqWrap {
-		margin-top: 80px;
-		margin-bottom: 80px;
-		h1 {
-			font-size: 48px;
-			margin-bottom: 32px;
-		}
-		li {
-			margin-bottom: 32px;
-		}
-	}
+@include pad {
+  .faqWrap {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    h1 {
+      font-size: 48px;
+      margin-bottom: 32px;
+    }
+    li {
+      margin-bottom: 32px;
+    }
+  }
 }
-@media screen and (min-width: 1296px) {
-	.faqWrap {
-		margin-top: 96px;
-		div {
-			width: 856px;;
-		}
-	}
+@include pc {
+  .faqWrap {
+    margin-top: 96px;
+    div {
+      width: 65%;
+    }
+  }
 }

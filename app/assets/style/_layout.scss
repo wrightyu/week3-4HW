@@ -7,7 +7,6 @@ header {
   top: 0;
   left: 0;
   .container {
-    width: 100%;
     padding: 0;
   }
   nav {
@@ -90,11 +89,10 @@ footer {
     }
   }
 }
-@media screen and (min-width: 768px) {
+@include pad {
   header {
     .container {
-      width: 768px;
-      padding: 0 36px;
+      padding: 0 12px;
     }
     nav {
       display: flex;
@@ -116,11 +114,6 @@ footer {
   footer {
     position: initial;
     padding: 48px 0 40px 0;
-    .container {
-      width: 768px;
-      margin: 0 auto;
-      padding: 0 36px;
-    }
     .links {
       width: 100%;
       flex-direction: row;
@@ -164,12 +157,8 @@ footer {
     }
   }
 }
-@media screen and (min-width: 1296px) {
+@include pc {
   header {
-    .container {
-      width: 1296px;
-      padding: 0;
-    }
     nav {
       ul {
         width: 37.96%;
@@ -178,10 +167,6 @@ footer {
   }
   footer {
     padding: 48px 0 32px 0;
-    .container {
-      width: 1296px;
-      padding: 0;
-    }
     .links {
       .navLs {
         width: 35.8%;
@@ -198,7 +183,7 @@ footer {
     }
     .rights {
       ul {
-        width: 13.44%;
+        width: 15%;
       }
     }
   }
