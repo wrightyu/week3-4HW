@@ -6,9 +6,9 @@
   @media screen and (min-width: 768px) {
     .container {
       max-width: 720px; } }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1296px) {
     .container {
-      max-width: 960px; } }
+      max-width: 1320px; } }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -250,7 +250,7 @@ footer {
                 justify-content: space-between;
         width: 25%; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   header nav ul {
     width: 37.96%; }
   footer {
@@ -573,9 +573,7 @@ main .contactForm {
     main .contactForm a {
       width: 58.33%; } }
 
-@media screen and (min-width: 992px) {
-  .container {
-    padding: 0 12px; }
+@media screen and (min-width: 1296px) {
   main .banner {
     background-image: url("../images/week3-4/home-header.png");
     background-position: center;
@@ -795,7 +793,7 @@ main .contactForm {
     margin: 80px auto;
     width: 53.45%; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   .kindsNav {
     margin: 0 auto; }
     .kindsNav a {
@@ -986,7 +984,7 @@ main .contactForm {
     margin: 80px auto;
     width: 53.45%; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   .kindsNav {
     margin: 0 auto; }
     .kindsNav a {
@@ -1070,7 +1068,8 @@ main .contactForm {
     border: 1px solid #00000020;
     padding: 0 24px; }
     .citySet .shopInfo li {
-      margin-top: 8px; }
+      margin-top: 8px;
+      width: 100%; }
     .citySet .shopInfo .material-icons {
       margin-top: 5px;
       margin-right: 8px; }
@@ -1121,7 +1120,7 @@ main .contactForm {
       width: 336px;
       margin-top: 48px; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   .shopCheckLs {
     margin-top: 96px; }
   .citySet {
@@ -1207,7 +1206,7 @@ main .contactForm {
     .googleMap .tablet {
       display: initial; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   .shopMapWrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1269,7 +1268,7 @@ main .contactForm {
     .faqWrap li {
       margin-bottom: 32px; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   .faqWrap {
     margin-top: 96px; }
     .faqWrap div {
@@ -1419,7 +1418,7 @@ main .contactForm {
     margin: 80px auto;
     width: 53.45%; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   .blogWrap nav {
     margin-bottom: 96px; }
     .blogWrap nav ul {
@@ -1636,20 +1635,20 @@ main .contactForm {
       .blogpageTablet .changePage p {
         margin: 0 12px; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1296px) {
   .valentineWrap .left {
     width: 70%; }
   .valentineWrap nav ul {
     width: 45%; }
   .valentineWrap .img {
-    width: 100%;
-    height: 400px; }
+    width: 856px;
+    height: 520px; }
   .valentineWrap .content {
     margin-top: 16px;
     margin-bottom: 0; }
     .valentineWrap .content li {
       margin-bottom: 40px;
-      width: 100%; }
+      width: 856px; }
   .blogpageTablet {
     display: none; }
   .blogpagePc {
@@ -1688,7 +1687,7 @@ main .contactForm {
         margin: 0 12px; }
   .tag {
     width: 25%; }
-    .tag .material-icons {
+    .tag .material-symbols-outlined {
       font-size: 48px; }
     .tag h3 {
       font-size: 48px; }
