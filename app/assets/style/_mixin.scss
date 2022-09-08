@@ -1,5 +1,5 @@
 $pad: 768px;
-$pc: 992px;
+$pc: 1296px;
 @mixin pad {
   @media screen and (min-width: $pad) {
     @content;
@@ -18,6 +18,6 @@ $pc: 992px;
     max-width: 720px;
   }
   @include pc {
-    max-width: 960px;
+    max-width: 1320px;
   }
 }

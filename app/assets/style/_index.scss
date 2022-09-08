@@ -316,9 +316,9 @@ main {
   }
 }
 @include pc {
-  .container {
-    padding: 0 12px;
-  }
+  // .container {
+  //   padding: 0 12px;
+  // }
   main {
     .banner {
       background-image: url("../images/week3-4/home-header.png");
